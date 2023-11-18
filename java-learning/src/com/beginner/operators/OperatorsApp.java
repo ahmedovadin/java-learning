@@ -29,5 +29,14 @@ public class OperatorsApp {
         System.out.printf("Price after 1 euro increase: euro %s\n", priceOneEuroIncrease);
         int priceOneEuroDecrease = --price;
         System.out.printf("Price after 1 euro decrease: euro %s\n", priceOneEuroDecrease);
+        System.out.println();
+
+        System.out.printf("Car's price equals the money in the bank: %s\n", (price == moneyInTheBank));
+        System.out.printf("Car's price equals doesn't equals the money in the bank: %s\n", (price != moneyInTheBank));
+        System.out.printf("Car's price equals is greater than the money in the bank: %s\n", (price > moneyInTheBank));
+        System.out.printf("Car's price equals is lesser than  the money in the bank: %s\n", (price < moneyInTheBank));
+        System.out.printf("Car's price equals is greater than or equals the money in the bank: %s\n", (price >= moneyInTheBank));
+        System.out.printf("Car's price equals is lesser than or equals the money in the bank: %s\n", (price <= moneyInTheBank));
+        System.out.printf("The cardModel variable's datatype is a String %s", (cardModel instanceof String));
     }
 }
