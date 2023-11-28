@@ -1,5 +1,7 @@
 package com.beginner.datatypes;
 
+import intermediate.classesandobjects.DodgeChallenger;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -55,5 +57,8 @@ public class Main {
 
         byte newPower = (byte) power;
         System.out.println("New value of power: " + newPower);
+
+        DodgeChallenger redDodgeChallenger = new DodgeChallenger("red", (byte)3, (short)450, (short)717, (short)7700, 40000, 15000, true);
+
     }
 }
