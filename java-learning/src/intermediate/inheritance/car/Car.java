@@ -68,4 +68,24 @@ public class Car {
         System.out.println("Number of seats: " + numberOfSeats);
 
     }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = Math.abs(price);
+    }
+
+    public int getMileage() {
+        return mileage;
+    }
+
+    public void drive(int mileage){
+        this.mileage += Math.abs(mileage);
+    }
+
+    public String getCarName() {
+        return carName;
+    }
 }
